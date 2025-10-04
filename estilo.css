@@ -1,0 +1,171 @@
+
+body {
+    font-family: Arial, sans-serif; 
+    background-color: #f0f0f0;      
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: lightgreen; 
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid green;
+}
+
+header h1 {
+    font-size: 2em;
+    margin: 10px 0;
+}
+
+header h3 {
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+header img {
+    border-radius: 30%;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    background-color: rgb(1, 68, 16);
+    border-radius: 2vh;
+    margin-left: 4vw;
+    margin-right: 4vw;
+}
+
+nav li {
+    display: inline-block;
+    padding: 2vh;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(84, 253, 168);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+.boton {
+  display: inline-block;      
+  padding: 10px 20px; 
+  color: white;                
+  text-decoration: none;       
+  border-radius: 8px;          
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+a:hover {
+  color: rgb(22, 226, 165);
+  text-shadow: 1px 1px 5px rgba(231, 255, 174, 0.5);
+  transition: 0.4s; 
+}
+
+section {
+    background-color: white;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;  
+}
+
+.article-destacado {
+    background-color: #f9ffe6;
+    border: 1px solid #cccc66;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.dato {
+    background-color: #e6ffe6;
+    border-left: 4px solid green;
+    padding: 10px;
+}
+
+details {
+    background-color: #f9f9f9;   
+    border: 1px solid #ccc;   
+    border-radius: 5px;          
+    margin: 20px 0;            
+    padding: 10px;
+    font-family: Arial, sans-serif;
+}
+
+
+summary {
+    font-weight: bold;
+    font-size: 1.1em;
+    cursor: pointer;
+    background-color: #e6ffe6;   
+    padding: 8px;
+    border-radius: 3px;
+}
+
+
+details[open] {
+    background-color: #f0fff0;   
+    border-color: green;
+}
+
+
+details p {
+    margin: 10px 0 0 15px;  
+    font-size: 0.95em;
+}
+
+form {
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, select, button {
+    margin-top: 5px;
+    padding: 6px;
+    border: 1px solid #999;
+    width: 100%;
+    max-width: 300px;
+}
+
+button {
+    background-color: green;
+    color: white;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+footer {
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+form button {       
+    width: 120px;             
+    margin: 10px auto;        
+    padding: 8px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: darkgreen;
+}
